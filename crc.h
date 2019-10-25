@@ -14,6 +14,7 @@ typedef unsigned char byte;
 #define CRC32_INDEX(c) (c & 0xff)
 #define CRC32_SHIFTED(c) (c >> 8)
 
+
 //! CRC Checksum Calculation
 class CRC32
 {
