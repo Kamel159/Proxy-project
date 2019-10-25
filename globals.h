@@ -25,6 +25,7 @@
 #include <intrin.h>
 #include <TlHelp32.h>
 
+//Data structure of an exploitable packet
 typedef struct _Raito
 {
 	DWORD dwServerIndex;
@@ -40,8 +41,8 @@ typedef struct _Raito
 	{
 		dwServerIndex = 0;
 		dwPlayerId = 0;
-		dwItemId = 0; //only thing changed in the infiltration call
-		dwItemNum = 0;   //only thing changed in the infiltration call
+		dwItemId = 0; //Id of the item we want to create
+		dwItemNum = 0;//The number of that item
 		dwRetVal = 0;
 		ZeroMemory(szBxaid, sizeof(char) * 21);
 		dwSenderId = 1;
