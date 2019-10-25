@@ -1,5 +1,5 @@
 #include "globals.h"
-using namespace CopyA;
+using namespace Proxy;
 #pragma comment(lib, "ws2_32.lib")
 
 #define DATA_BUFSIZE 8192
